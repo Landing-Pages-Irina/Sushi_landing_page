@@ -2,4 +2,4 @@
 
 ###### BEM classes convention
 
-[Demo](https://github.com/Landing-Pages-Irina/Sushi_landing_page/blob/main/demo_img.png)
+![Demo](https://github.com/Landing-Pages-Irina/Sushi_landing_page/blob/main/demo_img.png)
