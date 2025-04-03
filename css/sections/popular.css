@@ -18,7 +18,7 @@
   font-family: var(--playfair-display);
   font-weight: 600;
   line-height: 78px;
-  color: #fff;
+  color: var(--color-white);
   text-align: center;
 }
 
@@ -48,7 +48,7 @@
   font-weight: 300px;
   line-height: 25px;
   font-family: var(--plus-jakarta-sans);
-  color: #fff;
+  color: var(--color-white);
   cursor: pointer;
 }
 
@@ -59,12 +59,12 @@
 }
 
 .popular-foods__filter-btn.active {
-  background: #fff;
+  background: var(--color-white);
   color: var(--primary-color);
 }
 
 .popular-foods__filter-btn:hover {
-  background: #fff;
+  background: var(--color-white);
   color: var(--primary-color);
 }
 
@@ -73,9 +73,10 @@
 
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   flex-wrap: wrap;
   gap: 56px;
+  height: 50vh;
 }
 
 .popular-foods__button {
@@ -88,7 +89,7 @@
   font-size: 18px;
   line-height: 23px;
   font-family: var(--plus-jakarta-sans);
-  color: #fff;
+  color: var(--color-white);
 
   border: none;
   outline: none;
@@ -132,7 +133,7 @@
   font-size: 24px;
   line-height: 32px;
   font-family: var(--playfair-display);
-  color: #fff;
+  color: var(--color-white);
   text-align: center;
 }
 
@@ -157,18 +158,18 @@
   font-size: 20px;
   font-weight: 300;
   font-family: var(--plus-jakarta-sans);
-  color: #fff;
+  color: var(--color-white);
 }
 
 .popular-foods__card-price {
   font-size: 20px;
   font-weight: 500;
   font-family: var(--plus-jakarta-sans);
-  color: #fff;
+  color: var(--color-white);
 }
 
 .popular-foods__card.active-card {
-  background: #fff;
+  background: var(--color-white);
   min-width: 340px;
 }
 
@@ -195,4 +196,10 @@
 .popular-foods__card.active-card .popular-foods__card-price {
   font-size: 24px;
   color: var(--secondary-color);
+}
+
+@media screen and (max-width: 550px) {
+  .popular-foods__filters {
+    justify-content: start;
+  }
 }
