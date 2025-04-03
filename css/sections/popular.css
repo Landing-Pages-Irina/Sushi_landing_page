@@ -202,4 +202,8 @@
   .popular-foods__filters {
     justify-content: start;
   }
+
+  .popular-foods__catalogue {
+    height: auto;
+  }
 }
